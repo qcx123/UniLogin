@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4417B9552384E94200211512 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 4417B9542384E94200211512 /* NSData+AES.m */; };
+		441A14C2235172650011A726 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 441A14C1235172650011A726 /* AppDelegate.m */; };
+		441A14CA235172660011A726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441A14C9235172660011A726 /* Assets.xcassets */; };
+		441A14CD235172660011A726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441A14CB235172660011A726 /* LaunchScreen.storyboard */; };
+		441A14D0235172660011A726 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 441A14CF235172660011A726 /* main.m */; };
+		441A14DC235172B00011A726 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 441A14DB235172B00011A726 /* libc++.1.tbd */; };
+		441A14DE235172B70011A726 /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 441A14DD235172B70011A726 /* libz.1.2.8.tbd */; };
+		441A14E1235175A40011A726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441A14E0235175A40011A726 /* Main.storyboard */; };
+		441A14E4235175B50011A726 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441A14E3235175B50011A726 /* ViewController.m */; };
+		4426B49E25CBC7A300EE0750 /* WXLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4426B49D25CBC7A300EE0750 /* WXLoginManager.m */; };
+		44670C9425D2BF9600E44787 /* UniLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44670C8825D2BF9500E44787 /* UniLogin.framework */; };
+		44670C9525D2BF9600E44787 /* TYRZResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44670C8A25D2BF9500E44787 /* TYRZResource.bundle */; };
+		44670C9625D2BF9600E44787 /* EAccountOpenPageResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44670C8B25D2BF9500E44787 /* EAccountOpenPageResource.bundle */; };
+		44670C9725D2BF9600E44787 /* EAccountHYSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44670C8E25D2BF9500E44787 /* EAccountHYSDK.framework */; };
+		44670C9825D2BF9600E44787 /* TYRZUISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44670C9025D2BF9500E44787 /* TYRZUISDK.framework */; };
+		44670C9925D2BF9600E44787 /* OAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44670C9225D2BF9500E44787 /* OAuth.framework */; };
+		F81F39E914FD5ACB2F44229D /* Pods_UniSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA661D7A6B602E305227D86 /* Pods_UniSDKDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07F2EB947FBE290FEFA505C3 /* Pods-UniSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-UniSDKDemo/Pods-UniSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4417B9532384E94200211512 /* NSData+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		4417B9542384E94200211512 /* NSData+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		441A14BD235172650011A726 /* UniSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		441A14C0235172650011A726 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		441A14C1235172650011A726 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		441A14C9235172660011A726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		441A14CC235172660011A726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		441A14CE235172660011A726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441A14CF235172660011A726 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		441A14DB235172B00011A726 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		441A14DD235172B70011A726 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		441A14E0235175A40011A726 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		441A14E2235175B50011A726 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		441A14E3235175B50011A726 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4426B49C25CBC7A300EE0750 /* WXLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXLoginManager.h; sourceTree = "<group>"; };
+		4426B49D25CBC7A300EE0750 /* WXLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXLoginManager.m; sourceTree = "<group>"; };
+		44670C8825D2BF9500E44787 /* UniLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UniLogin.framework; sourceTree = "<group>"; };
+		44670C8A25D2BF9500E44787 /* TYRZResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TYRZResource.bundle; sourceTree = "<group>"; };
+		44670C8B25D2BF9500E44787 /* EAccountOpenPageResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EAccountOpenPageResource.bundle; sourceTree = "<group>"; };
+		44670C8E25D2BF9500E44787 /* EAccountHYSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EAccountHYSDK.framework; sourceTree = "<group>"; };
+		44670C9025D2BF9500E44787 /* TYRZUISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TYRZUISDK.framework; sourceTree = "<group>"; };
+		44670C9225D2BF9500E44787 /* OAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OAuth.framework; sourceTree = "<group>"; };
+		44670C9325D2BF9500E44787 /* UniLoginHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniLoginHeader.h; sourceTree = "<group>"; };
+		44DB297F23F2EA2D00C3D7CB /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		85B28CD93B36FE430909FC61 /* Pods-UniSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-UniSDKDemo/Pods-UniSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CFA661D7A6B602E305227D86 /* Pods_UniSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		441A14BA235172650011A726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441A14DE235172B70011A726 /* libz.1.2.8.tbd in Frameworks */,
+				44670C9725D2BF9600E44787 /* EAccountHYSDK.framework in Frameworks */,
+				441A14DC235172B00011A726 /* libc++.1.tbd in Frameworks */,
+				F81F39E914FD5ACB2F44229D /* Pods_UniSDKDemo.framework in Frameworks */,
+				44670C9925D2BF9600E44787 /* OAuth.framework in Frameworks */,
+				44670C9825D2BF9600E44787 /* TYRZUISDK.framework in Frameworks */,
+				44670C9425D2BF9600E44787 /* UniLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4A72F76F2FC6D371B86A3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07F2EB947FBE290FEFA505C3 /* Pods-UniSDKDemo.debug.xcconfig */,
+				85B28CD93B36FE430909FC61 /* Pods-UniSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4417B94F2384E90500211512 /* aes_tools */ = {
+			isa = PBXGroup;
+			children = (
+				4417B9532384E94200211512 /* NSData+AES.h */,
+				4417B9542384E94200211512 /* NSData+AES.m */,
+			);
+			path = aes_tools;
+			sourceTree = "<group>";
+		};
+		441A14B4235172650011A726 = {
+			isa = PBXGroup;
+			children = (
+				441A14BF235172650011A726 /* UniSDKDemo */,
+				441A14BE235172650011A726 /* Products */,
+				441A14DA235172B00011A726 /* Frameworks */,
+				2B4A72F76F2FC6D371B86A3F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		441A14BE235172650011A726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				441A14BD235172650011A726 /* UniSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		441A14BF235172650011A726 /* UniSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				44670C8625D2BF9500E44787 /* EmayLoginSDK */,
+				441A14C0235172650011A726 /* AppDelegate.h */,
+				441A14C1235172650011A726 /* AppDelegate.m */,
+				441A14E2235175B50011A726 /* ViewController.h */,
+				441A14E3235175B50011A726 /* ViewController.m */,
+				4426B49C25CBC7A300EE0750 /* WXLoginManager.h */,
+				4426B49D25CBC7A300EE0750 /* WXLoginManager.m */,
+				4417B94F2384E90500211512 /* aes_tools */,
+				441A14E0235175A40011A726 /* Main.storyboard */,
+				441A14C9235172660011A726 /* Assets.xcassets */,
+				441A14CB235172660011A726 /* LaunchScreen.storyboard */,
+				441A14CE235172660011A726 /* Info.plist */,
+				441A14CF235172660011A726 /* main.m */,
+			);
+			path = UniSDKDemo;
+			sourceTree = "<group>";
+		};
+		441A14DA235172B00011A726 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44DB297F23F2EA2D00C3D7CB /* libc++abi.tbd */,
+				441A14DD235172B70011A726 /* libz.1.2.8.tbd */,
+				441A14DB235172B00011A726 /* libc++.1.tbd */,
+				CFA661D7A6B602E305227D86 /* Pods_UniSDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44670C8625D2BF9500E44787 /* EmayLoginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				44670C8725D2BF9500E44787 /* UniLogin */,
+				44670C8925D2BF9500E44787 /* Resources */,
+				44670C8C25D2BF9500E44787 /* ThirdPartyLibs */,
+				44670C9325D2BF9500E44787 /* UniLoginHeader.h */,
+			);
+			path = EmayLoginSDK;
+			sourceTree = "<group>";
+		};
+		44670C8725D2BF9500E44787 /* UniLogin */ = {
+			isa = PBXGroup;
+			children = (
+				44670C8825D2BF9500E44787 /* UniLogin.framework */,
+			);
+			path = UniLogin;
+			sourceTree = "<group>";
+		};
+		44670C8925D2BF9500E44787 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44670C8A25D2BF9500E44787 /* TYRZResource.bundle */,
+				44670C8B25D2BF9500E44787 /* EAccountOpenPageResource.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		44670C8C25D2BF9500E44787 /* ThirdPartyLibs */ = {
+			isa = PBXGroup;
+			children = (
+				44670C8D25D2BF9500E44787 /* chinaTelecom */,
+				44670C8F25D2BF9500E44787 /* cmcc */,
+				44670C9125D2BF9500E44787 /* chinaunicom */,
+			);
+			path = ThirdPartyLibs;
+			sourceTree = "<group>";
+		};
+		44670C8D25D2BF9500E44787 /* chinaTelecom */ = {
+			isa = PBXGroup;
+			children = (
+				44670C8E25D2BF9500E44787 /* EAccountHYSDK.framework */,
+			);
+			path = chinaTelecom;
+			sourceTree = "<group>";
+		};
+		44670C8F25D2BF9500E44787 /* cmcc */ = {
+			isa = PBXGroup;
+			children = (
+				44670C9025D2BF9500E44787 /* TYRZUISDK.framework */,
+			);
+			path = cmcc;
+			sourceTree = "<group>";
+		};
+		44670C9125D2BF9500E44787 /* chinaunicom */ = {
+			isa = PBXGroup;
+			children = (
+				44670C9225D2BF9500E44787 /* OAuth.framework */,
+			);
+			path = chinaunicom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		441A14BC235172650011A726 /* UniSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 441A14D3235172660011A726 /* Build configuration list for PBXNativeTarget "UniSDKDemo" */;
+			buildPhases = (
+				FA44225979989A5328E6836C /* [CP] Check Pods Manifest.lock */,
+				441A14B9235172650011A726 /* Sources */,
+				441A14BA235172650011A726 /* Frameworks */,
+				441A14BB235172650011A726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniSDKDemo;
+			productName = UniSDKDemo;
+			productReference = 441A14BD235172650011A726 /* UniSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		441A14B5235172650011A726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "乔春晓";
+				TargetAttributes = {
+					441A14BC235172650011A726 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 441A14B8235172650011A726 /* Build configuration list for PBXProject "UniSDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 441A14B4235172650011A726;
+			productRefGroup = 441A14BE235172650011A726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				441A14BC235172650011A726 /* UniSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		441A14BB235172650011A726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44670C9525D2BF9600E44787 /* TYRZResource.bundle in Resources */,
+				44670C9625D2BF9600E44787 /* EAccountOpenPageResource.bundle in Resources */,
+				441A14E1235175A40011A726 /* Main.storyboard in Resources */,
+				441A14CD235172660011A726 /* LaunchScreen.storyboard in Resources */,
+				441A14CA235172660011A726 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA44225979989A5328E6836C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		441A14B9235172650011A726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4417B9552384E94200211512 /* NSData+AES.m in Sources */,
+				441A14E4235175B50011A726 /* ViewController.m in Sources */,
+				4426B49E25CBC7A300EE0750 /* WXLoginManager.m in Sources */,
+				441A14D0235172660011A726 /* main.m in Sources */,
+				441A14C2235172650011A726 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		441A14CB235172660011A726 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				441A14CC235172660011A726 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		441A14D1235172660011A726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		441A14D2235172660011A726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		441A14D4235172660011A726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F2EB947FBE290FEFA505C3 /* Pods-UniSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VCDS7583AL;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UniSDKDemo/EmayLoginSDK/UniLogin",
+					"$(PROJECT_DIR)/UniSDKDemo/EmayLoginSDK/ThirdPartyLibs/chinaTelecom",
+					"$(PROJECT_DIR)/UniSDKDemo/EmayLoginSDK/ThirdPartyLibs/cmcc",
+					"$(PROJECT_DIR)/UniSDKDemo/EmayLoginSDK/ThirdPartyLibs/chinaunicom",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/UniSDKDemo/EmayLoginSDK/UniLogin/UniLogin.framework\"";
+				INFOPLIST_FILE = UniSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.emay.eqlp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		441A14D5235172660011A726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B28CD93B36FE430909FC61 /* Pods-UniSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VCDS7583AL;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UniSDKDemo/EmayLoginSDK/UniLogin",
+					"$(PROJECT_DIR)/UniSDKDemo/EmayLoginSDK/ThirdPartyLibs/chinaTelecom",
+					"$(PROJECT_DIR)/UniSDKDemo/EmayLoginSDK/ThirdPartyLibs/cmcc",
+					"$(PROJECT_DIR)/UniSDKDemo/EmayLoginSDK/ThirdPartyLibs/chinaunicom",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/UniSDKDemo/EmayLoginSDK/UniLogin/UniLogin.framework\"";
+				INFOPLIST_FILE = UniSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.emay.eqlp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = dis;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		441A14B8235172650011A726 /* Build configuration list for PBXProject "UniSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441A14D1235172660011A726 /* Debug */,
+				441A14D2235172660011A726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		441A14D3235172660011A726 /* Build configuration list for PBXNativeTarget "UniSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441A14D4235172660011A726 /* Debug */,
+				441A14D5235172660011A726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 441A14B5235172650011A726 /* Project object */;
+}
