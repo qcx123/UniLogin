@@ -1,0 +1,1018 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4E1F5DC185D921470A5A0868984CB506 /* UniLogin */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B364CFCFE3BC4EEE8D44333F42E02E2A /* Build configuration list for PBXAggregateTarget "UniLogin" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = UniLogin;
+		};
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0831472D07F07B7B4A577DB9D5EE3BE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		174A3A07C1BEB4695A4F2438C98D2A99 /* Pods-UniLoginDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA838B976E1E5C032FAF0A0FC7C75910 /* Pods-UniLoginDemo-dummy.m */; };
+		2C5E3916B0D8C009F9B0AD383EBB34C9 /* Pods-UniLoginDemo-UniLoginDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6144EB59C4A278835BC68DF99C65F3 /* Pods-UniLoginDemo-UniLoginDemoUITests-dummy.m */; };
+		35EBAF165710295DDE5E09B7D66C9D14 /* Pods-UniLoginDemo-UniLoginDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B058182E62D1C9A2A8953D6E1C4FC2 /* Pods-UniLoginDemo-UniLoginDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C16457139003F279821C42BED9D2C25 /* Pods-UniLoginDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5EDE8281612C7F158C71DCAC9A3325A /* Pods-UniLoginDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DB30D13FCF55943ADFFCBBA0C308304 /* Pods-UniLoginDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 186E285370A1AF25B6950DF062E0BE44 /* Pods-UniLoginDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5260D9C865CF4A99C8A42DE7BD1A44D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7D000680F1DFAC711FB40FA7C55F8696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		81AE6697CA0182DCCAB57D046B414298 /* Pods-UniLoginDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A161D123CC43FE447DE95181ABBDC85 /* Pods-UniLoginDemoTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38F804F1E2D7C003BF4B182D34601DD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E1F5DC185D921470A5A0868984CB506;
+			remoteInfo = UniLogin;
+		};
+		503A2AADBC6BA0A5111A3534A1C246AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35F511138272CA532B9EE4749FDA4AA9;
+			remoteInfo = "Pods-UniLoginDemo";
+		};
+		7CDA01DEB7424FA0145866E069AEFACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		C22CBF619268430B74CE8BDEBF35899C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		E798B4FA48B5C1A0D137CF93E050985E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E1F5DC185D921470A5A0868984CB506;
+			remoteInfo = UniLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006B459F7B5A873A9CC3AC8687373E33 /* Pods-UniLoginDemo-UniLoginDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniLoginDemo-UniLoginDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A161D123CC43FE447DE95181ABBDC85 /* Pods-UniLoginDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UniLoginDemoTests-dummy.m"; sourceTree = "<group>"; };
+		11EFA3E08878DED0EB64334C1A044AAA /* YMCustomConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMCustomConfig.h; path = EmaySDK/YMCustomConfig.h; sourceTree = "<group>"; };
+		128559B57885FDB5615EAAA7D6664ADA /* Pods-UniLoginDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniLoginDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		13C931A8F554ACE65DE73F53A0425D57 /* Pods-UniLoginDemo-UniLoginDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniLoginDemo-UniLoginDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		186E285370A1AF25B6950DF062E0BE44 /* Pods-UniLoginDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UniLoginDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		1A06B5DCD1BF1DA9D26A072CD6297625 /* OAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuth.framework; path = EmaySDK/OAuth.framework; sourceTree = "<group>"; };
+		1D78B14153FFC8FAE1F85303DF0CD21F /* Pods-UniLoginDemo-UniLoginDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniLoginDemo-UniLoginDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		239026F49CAADA52843BF54722A7D37D /* Pods-UniLoginDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UniLoginDemo-resources.sh"; sourceTree = "<group>"; };
+		26B058182E62D1C9A2A8953D6E1C4FC2 /* Pods-UniLoginDemo-UniLoginDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UniLoginDemo-UniLoginDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		37F2F1DA8525E64F760E6CBE246F5946 /* Pods_UniLoginDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UniLoginDemoTests.framework; path = "Pods-UniLoginDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0E64E2AE7DF8FDBC26993C756F28CF /* Pods-UniLoginDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniLoginDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		458A4A13262E773086E0808047D959AF /* Pods-UniLoginDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UniLoginDemo.modulemap"; sourceTree = "<group>"; };
+		509C2B5F26FD4D9B96F41DCA71761555 /* Pods-UniLoginDemo-UniLoginDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniLoginDemo-UniLoginDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5363AE94994FA2AD63A01518A6A02234 /* Pods-UniLoginDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniLoginDemoTests-Info.plist"; sourceTree = "<group>"; };
+		64A07C02812F68AE250EC012F922C2D3 /* Pods-UniLoginDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniLoginDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68771FCB9B86160E12FB120E139F3FFC /* EAccountOpenPageResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = EAccountOpenPageResource.bundle; path = EmaySDK/EAccountOpenPageResource.bundle; sourceTree = "<group>"; };
+		6D1F6AA8CA6E78B1A7FBDF3F459E2776 /* libUniLogin.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUniLogin.a; path = EmaySDK/libUniLogin.a; sourceTree = "<group>"; };
+		6E8322A2AA1ECDE8E6D1A0AE6E47EAAB /* EAccountHYSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EAccountHYSDK.framework; path = EmaySDK/EAccountHYSDK.framework; sourceTree = "<group>"; };
+		6F30BC527B14058E3E23AB2D3F41B79C /* UniLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UniLogin.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8AB291E89738EC20D8E9F018DCFED3A4 /* TYRZResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TYRZResource.bundle; path = EmaySDK/TYRZResource.bundle; sourceTree = "<group>"; };
+		8FCB9A46A2DBF198A21D6BCE845B9123 /* Pods-UniLoginDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UniLoginDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90E3A55B773762F062D328A972BBB6EC /* Pods-UniLoginDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniLoginDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08CD46803D35DB979647D5F5E25E2FA /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		A89B2691B8AC4A4199A94B54B9A977F4 /* Pods-UniLoginDemo-UniLoginDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UniLoginDemo-UniLoginDemoUITests.modulemap"; sourceTree = "<group>"; };
+		ACB9B7C402B2370DDCAD0ADE458BA9B9 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		ADCD26DD4F82BEA48EEA53D8CF3E8FA5 /* Pods-UniLoginDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniLoginDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4763CAD8D9DFD2E9717B2E2A58BCC4F /* UniLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UniLogin.release.xcconfig; sourceTree = "<group>"; };
+		BFF54831950945122C98D0E18BDB8D1E /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
+		C157E9B7925A0B4C0E5DCD8DD00B7ECA /* UniLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UniLogin.h; path = EmaySDK/UniLogin.h; sourceTree = "<group>"; };
+		C5EDE8281612C7F158C71DCAC9A3325A /* Pods-UniLoginDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UniLoginDemo-umbrella.h"; sourceTree = "<group>"; };
+		C694C64AD3E5E3DAC602948DA4864FB0 /* Pods-UniLoginDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UniLoginDemoTests.modulemap"; sourceTree = "<group>"; };
+		CA5752AAE1F8C420F6823EFDB4291269 /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		CB2F3892147A26C6CB51D6F7F0953F47 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		CBA7CC6A24ED678B71F4731F8AEE29E6 /* Pods-UniLoginDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniLoginDemo-Info.plist"; sourceTree = "<group>"; };
+		CCC6602A337B938AA393C92EDDE8ACA5 /* TYRZUISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TYRZUISDK.framework; path = EmaySDK/TYRZUISDK.framework; sourceTree = "<group>"; };
+		D014C1EF815FB63B8458D811B5BAC656 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
+		D8BBAE21947BEFCC1DA5613EC314DDF1 /* Pods-UniLoginDemo-UniLoginDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UniLoginDemo-UniLoginDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8E24FAFB99BB3A2106C286BB78D1AB5 /* Pods-UniLoginDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UniLoginDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC6144EB59C4A278835BC68DF99C65F3 /* Pods-UniLoginDemo-UniLoginDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UniLoginDemo-UniLoginDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		EB83054FCBFB290CAE175B2609170E42 /* Pods_UniLoginDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UniLoginDemo.framework; path = "Pods-UniLoginDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB4E64C31278A88A4818F60D4F7BCAA /* Pods-UniLoginDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniLoginDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F54A10EE1D6F6048377BC2A46E6352F7 /* EACustomAnimatedTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EACustomAnimatedTransitioning.h; path = EmaySDK/EACustomAnimatedTransitioning.h; sourceTree = "<group>"; };
+		F91D2FB07D72F443C65D902B8A8E21EC /* Pods-UniLoginDemo-UniLoginDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UniLoginDemo-UniLoginDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		F97B46B986242EE34F4B8DD28679DC3F /* Pods_UniLoginDemo_UniLoginDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UniLoginDemo_UniLoginDemoUITests.framework; path = "Pods-UniLoginDemo-UniLoginDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA838B976E1E5C032FAF0A0FC7C75910 /* Pods-UniLoginDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UniLoginDemo-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1447F8B0FBB5FDB634160E239CD34DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D000680F1DFAC711FB40FA7C55F8696 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C152A481A310657426892B1D6CF4E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0831472D07F07B7B4A577DB9D5EE3BE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D256EFE9195389E4152E8A2AA41BC105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5260D9C865CF4A99C8A42DE7BD1A44D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26C3ACC0C24180CA2A289288FCE51D51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB83054FCBFB290CAE175B2609170E42 /* Pods_UniLoginDemo.framework */,
+				F97B46B986242EE34F4B8DD28679DC3F /* Pods_UniLoginDemo_UniLoginDemoUITests.framework */,
+				37F2F1DA8525E64F760E6CBE246F5946 /* Pods_UniLoginDemoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		507DBA9D1B5BB58109DC59595163BC9C /* Pods-UniLoginDemo-UniLoginDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A89B2691B8AC4A4199A94B54B9A977F4 /* Pods-UniLoginDemo-UniLoginDemoUITests.modulemap */,
+				D8BBAE21947BEFCC1DA5613EC314DDF1 /* Pods-UniLoginDemo-UniLoginDemoUITests-acknowledgements.markdown */,
+				509C2B5F26FD4D9B96F41DCA71761555 /* Pods-UniLoginDemo-UniLoginDemoUITests-acknowledgements.plist */,
+				DC6144EB59C4A278835BC68DF99C65F3 /* Pods-UniLoginDemo-UniLoginDemoUITests-dummy.m */,
+				13C931A8F554ACE65DE73F53A0425D57 /* Pods-UniLoginDemo-UniLoginDemoUITests-Info.plist */,
+				F91D2FB07D72F443C65D902B8A8E21EC /* Pods-UniLoginDemo-UniLoginDemoUITests-resources.sh */,
+				26B058182E62D1C9A2A8953D6E1C4FC2 /* Pods-UniLoginDemo-UniLoginDemoUITests-umbrella.h */,
+				006B459F7B5A873A9CC3AC8687373E33 /* Pods-UniLoginDemo-UniLoginDemoUITests.debug.xcconfig */,
+				1D78B14153FFC8FAE1F85303DF0CD21F /* Pods-UniLoginDemo-UniLoginDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-UniLoginDemo-UniLoginDemoUITests";
+			path = "Target Support Files/Pods-UniLoginDemo-UniLoginDemoUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		59A8BEB652F0C8C966C539E21A6EA87C /* UniLogin */ = {
+			isa = PBXGroup;
+			children = (
+				F54A10EE1D6F6048377BC2A46E6352F7 /* EACustomAnimatedTransitioning.h */,
+				C157E9B7925A0B4C0E5DCD8DD00B7ECA /* UniLogin.h */,
+				11EFA3E08878DED0EB64334C1A044AAA /* YMCustomConfig.h */,
+				8DE4BF407D80831FAC8E8542D7D14E5A /* Frameworks */,
+				E078AB46528410EDF15DBC4099967611 /* Resources */,
+				712400F4C0BD83EE62B9981DF30B99C7 /* Support Files */,
+			);
+			name = UniLogin;
+			path = UniLogin;
+			sourceTree = "<group>";
+		};
+		69498E82819265CDF572DD1C2291C870 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB88C13D9B76E96452FCB3638D4030E4 /* Pods-UniLoginDemo */,
+				507DBA9D1B5BB58109DC59595163BC9C /* Pods-UniLoginDemo-UniLoginDemoUITests */,
+				6B81FCB31F76CAEF3E1AA6ADB4128BE2 /* Pods-UniLoginDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6B81FCB31F76CAEF3E1AA6ADB4128BE2 /* Pods-UniLoginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C694C64AD3E5E3DAC602948DA4864FB0 /* Pods-UniLoginDemoTests.modulemap */,
+				8FCB9A46A2DBF198A21D6BCE845B9123 /* Pods-UniLoginDemoTests-acknowledgements.markdown */,
+				3E0E64E2AE7DF8FDBC26993C756F28CF /* Pods-UniLoginDemoTests-acknowledgements.plist */,
+				0A161D123CC43FE447DE95181ABBDC85 /* Pods-UniLoginDemoTests-dummy.m */,
+				5363AE94994FA2AD63A01518A6A02234 /* Pods-UniLoginDemoTests-Info.plist */,
+				186E285370A1AF25B6950DF062E0BE44 /* Pods-UniLoginDemoTests-umbrella.h */,
+				64A07C02812F68AE250EC012F922C2D3 /* Pods-UniLoginDemoTests.debug.xcconfig */,
+				ADCD26DD4F82BEA48EEA53D8CF3E8FA5 /* Pods-UniLoginDemoTests.release.xcconfig */,
+			);
+			name = "Pods-UniLoginDemoTests";
+			path = "Target Support Files/Pods-UniLoginDemoTests";
+			sourceTree = "<group>";
+		};
+		6F2B113E519D4FAA6CD8667F06C461EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB2F3892147A26C6CB51D6F7F0953F47 /* WechatOpenSDK.debug.xcconfig */,
+				CA5752AAE1F8C420F6823EFDB4291269 /* WechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		712400F4C0BD83EE62B9981DF30B99C7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F30BC527B14058E3E23AB2D3F41B79C /* UniLogin.debug.xcconfig */,
+				B4763CAD8D9DFD2E9717B2E2A58BCC4F /* UniLogin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UniLogin";
+			sourceTree = "<group>";
+		};
+		7BCC4411D81E1F868472ADCC1076DEEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59A8BEB652F0C8C966C539E21A6EA87C /* UniLogin */,
+				B5E6356511E033D1C3F78B47B79C4E9F /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8DE4BF407D80831FAC8E8542D7D14E5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E8322A2AA1ECDE8E6D1A0AE6E47EAAB /* EAccountHYSDK.framework */,
+				6D1F6AA8CA6E78B1A7FBDF3F459E2776 /* libUniLogin.a */,
+				1A06B5DCD1BF1DA9D26A072CD6297625 /* OAuth.framework */,
+				CCC6602A337B938AA393C92EDDE8ACA5 /* TYRZUISDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5E6356511E033D1C3F78B47B79C4E9F /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A08CD46803D35DB979647D5F5E25E2FA /* WechatAuthSDK.h */,
+				D014C1EF815FB63B8458D811B5BAC656 /* WXApi.h */,
+				BFF54831950945122C98D0E18BDB8D1E /* WXApiObject.h */,
+				DABD569A7B5D86064C294C28169ECBED /* Frameworks */,
+				6F2B113E519D4FAA6CD8667F06C461EF /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		BB88C13D9B76E96452FCB3638D4030E4 /* Pods-UniLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				458A4A13262E773086E0808047D959AF /* Pods-UniLoginDemo.modulemap */,
+				D8E24FAFB99BB3A2106C286BB78D1AB5 /* Pods-UniLoginDemo-acknowledgements.markdown */,
+				128559B57885FDB5615EAAA7D6664ADA /* Pods-UniLoginDemo-acknowledgements.plist */,
+				FA838B976E1E5C032FAF0A0FC7C75910 /* Pods-UniLoginDemo-dummy.m */,
+				CBA7CC6A24ED678B71F4731F8AEE29E6 /* Pods-UniLoginDemo-Info.plist */,
+				239026F49CAADA52843BF54722A7D37D /* Pods-UniLoginDemo-resources.sh */,
+				C5EDE8281612C7F158C71DCAC9A3325A /* Pods-UniLoginDemo-umbrella.h */,
+				90E3A55B773762F062D328A972BBB6EC /* Pods-UniLoginDemo.debug.xcconfig */,
+				EFB4E64C31278A88A4818F60D4F7BCAA /* Pods-UniLoginDemo.release.xcconfig */,
+			);
+			name = "Pods-UniLoginDemo";
+			path = "Target Support Files/Pods-UniLoginDemo";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7BCC4411D81E1F868472ADCC1076DEEC /* Pods */,
+				26C3ACC0C24180CA2A289288FCE51D51 /* Products */,
+				69498E82819265CDF572DD1C2291C870 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DABD569A7B5D86064C294C28169ECBED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACB9B7C402B2370DDCAD0ADE458BA9B9 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E078AB46528410EDF15DBC4099967611 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68771FCB9B86160E12FB120E139F3FFC /* EAccountOpenPageResource.bundle */,
+				8AB291E89738EC20D8E9F018DCFED3A4 /* TYRZResource.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6259A20BF19CE5C4D946F1A694F0F38D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB30D13FCF55943ADFFCBBA0C308304 /* Pods-UniLoginDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832FC26ECDBCF57AC1CEA9BF77873BFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C16457139003F279821C42BED9D2C25 /* Pods-UniLoginDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD99D71BBBD4D12BAD579EDAC2A991C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EBAF165710295DDE5E09B7D66C9D14 /* Pods-UniLoginDemo-UniLoginDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		35F511138272CA532B9EE4749FDA4AA9 /* Pods-UniLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F03AFA48B6B630C895E8B058007EE8C /* Build configuration list for PBXNativeTarget "Pods-UniLoginDemo" */;
+			buildPhases = (
+				832FC26ECDBCF57AC1CEA9BF77873BFD /* Headers */,
+				8793E90050FD3B70FC63AA97A39E0591 /* Sources */,
+				7C152A481A310657426892B1D6CF4E20 /* Frameworks */,
+				8BA7B4C9A01783B98CB98A87FD53644A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ACC6053B52786B65C7B35C5897EA1B1 /* PBXTargetDependency */,
+				306E18ABFEE12BD0880DA65EA33CED04 /* PBXTargetDependency */,
+			);
+			name = "Pods-UniLoginDemo";
+			productName = "Pods-UniLoginDemo";
+			productReference = EB83054FCBFB290CAE175B2609170E42 /* Pods_UniLoginDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		36A1800F3D605CCB732CF043884D1FB6 /* Pods-UniLoginDemo-UniLoginDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F157BECF55DE176589F3AA6384504622 /* Build configuration list for PBXNativeTarget "Pods-UniLoginDemo-UniLoginDemoUITests" */;
+			buildPhases = (
+				9CD99D71BBBD4D12BAD579EDAC2A991C /* Headers */,
+				E9C7642A4C5558AAFC6D56A3C390C3FF /* Sources */,
+				D256EFE9195389E4152E8A2AA41BC105 /* Frameworks */,
+				BBBC681B0D9C8065031582AB21120524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5851A19CE8F322F4088B49F55D68A3 /* PBXTargetDependency */,
+				829FA889CE57C3656BBB41EC162101FD /* PBXTargetDependency */,
+			);
+			name = "Pods-UniLoginDemo-UniLoginDemoUITests";
+			productName = "Pods-UniLoginDemo-UniLoginDemoUITests";
+			productReference = F97B46B986242EE34F4B8DD28679DC3F /* Pods_UniLoginDemo_UniLoginDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C383EA57D6C7F33D956B66C798A4CE57 /* Pods-UniLoginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A0C85FD16E4449F4C2C9033D6446EF /* Build configuration list for PBXNativeTarget "Pods-UniLoginDemoTests" */;
+			buildPhases = (
+				6259A20BF19CE5C4D946F1A694F0F38D /* Headers */,
+				DA099C300B8237DDEF29E8C3F0553B46 /* Sources */,
+				1447F8B0FBB5FDB634160E239CD34DBB /* Frameworks */,
+				75E82109FD2037858A3002EBD6C64AE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3D9C5D4DA55E99048E94106CADAAED5 /* PBXTargetDependency */,
+			);
+			name = "Pods-UniLoginDemoTests";
+			productName = "Pods-UniLoginDemoTests";
+			productReference = 37F2F1DA8525E64F760E6CBE246F5946 /* Pods_UniLoginDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 26C3ACC0C24180CA2A289288FCE51D51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35F511138272CA532B9EE4749FDA4AA9 /* Pods-UniLoginDemo */,
+				36A1800F3D605CCB732CF043884D1FB6 /* Pods-UniLoginDemo-UniLoginDemoUITests */,
+				C383EA57D6C7F33D956B66C798A4CE57 /* Pods-UniLoginDemoTests */,
+				4E1F5DC185D921470A5A0868984CB506 /* UniLogin */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75E82109FD2037858A3002EBD6C64AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA7B4C9A01783B98CB98A87FD53644A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBC681B0D9C8065031582AB21120524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8793E90050FD3B70FC63AA97A39E0591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174A3A07C1BEB4695A4F2438C98D2A99 /* Pods-UniLoginDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA099C300B8237DDEF29E8C3F0553B46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AE6697CA0182DCCAB57D046B414298 /* Pods-UniLoginDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C7642A4C5558AAFC6D56A3C390C3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5E3916B0D8C009F9B0AD383EBB34C9 /* Pods-UniLoginDemo-UniLoginDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		306E18ABFEE12BD0880DA65EA33CED04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = C22CBF619268430B74CE8BDEBF35899C /* PBXContainerItemProxy */;
+		};
+		4D5851A19CE8F322F4088B49F55D68A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UniLogin;
+			target = 4E1F5DC185D921470A5A0868984CB506 /* UniLogin */;
+			targetProxy = 38F804F1E2D7C003BF4B182D34601DD5 /* PBXContainerItemProxy */;
+		};
+		6ACC6053B52786B65C7B35C5897EA1B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UniLogin;
+			target = 4E1F5DC185D921470A5A0868984CB506 /* UniLogin */;
+			targetProxy = E798B4FA48B5C1A0D137CF93E050985E /* PBXContainerItemProxy */;
+		};
+		829FA889CE57C3656BBB41EC162101FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 7CDA01DEB7424FA0145866E069AEFACD /* PBXContainerItemProxy */;
+		};
+		E3D9C5D4DA55E99048E94106CADAAED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UniLoginDemo";
+			target = 35F511138272CA532B9EE4749FDA4AA9 /* Pods-UniLoginDemo */;
+			targetProxy = 503A2AADBC6BA0A5111A3534A1C246AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13B8C20929DC4A69A465B9AD799106ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4763CAD8D9DFD2E9717B2E2A58BCC4F /* UniLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19EB48C8530FBA1DDEA8FFCDD602F307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA5752AAE1F8C420F6823EFDB4291269 /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		689439EE35A0685123FE85816A7B7E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB4E64C31278A88A4818F60D4F7BCAA /* Pods-UniLoginDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UniLoginDemo/Pods-UniLoginDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UniLoginDemo/Pods-UniLoginDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C2B09926FB37501213F448BE7046C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D78B14153FFC8FAE1F85303DF0CD21F /* Pods-UniLoginDemo-UniLoginDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UniLoginDemo-UniLoginDemoUITests/Pods-UniLoginDemo-UniLoginDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UniLoginDemo-UniLoginDemoUITests/Pods-UniLoginDemo-UniLoginDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A78BE688A8833F21EB040E4252174537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A07C02812F68AE250EC012F922C2D3 /* Pods-UniLoginDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UniLoginDemoTests/Pods-UniLoginDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UniLoginDemoTests/Pods-UniLoginDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B11511A253C11DCA23EDEEF4F5B6A111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADCD26DD4F82BEA48EEA53D8CF3E8FA5 /* Pods-UniLoginDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UniLoginDemoTests/Pods-UniLoginDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UniLoginDemoTests/Pods-UniLoginDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7C0C2B69C953B798539E2993B04177C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 006B459F7B5A873A9CC3AC8687373E33 /* Pods-UniLoginDemo-UniLoginDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UniLoginDemo-UniLoginDemoUITests/Pods-UniLoginDemo-UniLoginDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UniLoginDemo-UniLoginDemoUITests/Pods-UniLoginDemo-UniLoginDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CB1462D60A028A0E0F82AF5D5609DF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E3A55B773762F062D328A972BBB6EC /* Pods-UniLoginDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UniLoginDemo/Pods-UniLoginDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UniLoginDemo/Pods-UniLoginDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC26B7EB8B29FCFD7B5C9ADF8F651A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F30BC527B14058E3E23AB2D3F41B79C /* UniLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9034C3C8B274D7A7C62065B44D4B763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB2F3892147A26C6CB51D6F7F0953F47 /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F03AFA48B6B630C895E8B058007EE8C /* Build configuration list for PBXNativeTarget "Pods-UniLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1462D60A028A0E0F82AF5D5609DF61 /* Debug */,
+				689439EE35A0685123FE85816A7B7E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9034C3C8B274D7A7C62065B44D4B763 /* Debug */,
+				19EB48C8530FBA1DDEA8FFCDD602F307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B364CFCFE3BC4EEE8D44333F42E02E2A /* Build configuration list for PBXAggregateTarget "UniLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC26B7EB8B29FCFD7B5C9ADF8F651A75 /* Debug */,
+				13B8C20929DC4A69A465B9AD799106ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A0C85FD16E4449F4C2C9033D6446EF /* Build configuration list for PBXNativeTarget "Pods-UniLoginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78BE688A8833F21EB040E4252174537 /* Debug */,
+				B11511A253C11DCA23EDEEF4F5B6A111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F157BECF55DE176589F3AA6384504622 /* Build configuration list for PBXNativeTarget "Pods-UniLoginDemo-UniLoginDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C0C2B69C953B798539E2993B04177C /* Debug */,
+				7C2B09926FB37501213F448BE7046C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
