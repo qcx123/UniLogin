@@ -76,7 +76,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**手机号码富文本属性 */
 @property (nonatomic, strong) NSDictionary<NSAttributedStringKey, id> *numberTextAttributes;
 
-//MARK:隐私条款************
+//MARK:隐私条款******务必按顺序设置******
 
 /**复选框未选中时图片*/
 @property (nonatomic,strong) UIImage *uncheckedImg;
@@ -100,8 +100,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) NSTextAlignment privacyTextAlignment;
 /**隐私条款字体大小，默认12*/
 @property (nonatomic,assign) CGFloat privacyTextFontSize;
-/**隐私条款是否显示书名号，默认不显示*/
-@property (nonatomic,assign) BOOL privacyShowBookSymbol;
 /**隐私条款行距，默认跟随系统*/
 @property (nonatomic,assign) CGFloat privacyLineSpacing;
 /**隐私条款拼接文本数组，数组限制4个NSString对象，否则无效
