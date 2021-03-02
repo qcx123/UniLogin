@@ -71,7 +71,6 @@
     _customConfig.appPrivacyColor = @[[UIColor blackColor], [UIColor blueColor]];
     _customConfig.privacyTextAlignment = NSTextAlignmentCenter;
     _customConfig.privacyTextFontSize = 12;
-    _customConfig.privacyShowBookSymbol = YES;
     _customConfig.privacyComponents = @[@"登录即表明同意", @"以及", @"和", @"进行本机号码登录", ];
     _customConfig.privacyState = YES;
     return _customConfig;

@@ -7,7 +7,7 @@ target 'UniLoginDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   
-  pod 'UniLogin', '~> 0.0.3'
+  pod 'UniLogin', '~> 0.0.4'
   pod 'WechatOpenSDK'
   
   target 'UniLoginDemoTests' do
