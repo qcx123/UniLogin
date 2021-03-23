@@ -24,8 +24,6 @@
 @property (nonatomic,assign) BOOL authWindow;
 @property (nonatomic,assign) BOOL landscapeleft;
 @property (nonatomic,assign) BOOL shouldAuthorVCStatusBarWhite;
-
-@property (nonatomic, strong) YMCustomConfig *customConfig;
 @end
 
 @implementation ViewController
@@ -33,7 +31,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = [NSString stringWithFormat:@"%@一键登录Demo",[[UniLogin shareInstance] getVersion]];
+    self.title = [NSString stringWithFormat:@"%@亿美免密",[[UniLogin shareInstance] getVersion]];
     UITapGestureRecognizer *tap =[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapView)];
     [self.view addGestureRecognizer:tap];
     _authWindow = NO;
@@ -47,33 +45,33 @@
 }
 
 - (YMCustomConfig *)createCustomModel:(BOOL)isMini {
-    _customConfig = [[YMCustomConfig alloc] init];
-    _customConfig.navColor = [UIColor whiteColor];
-    _customConfig.navText = @"欢迎登录";
-    _customConfig.navTextSize = 20;
-    _customConfig.navTextColor = [UIColor darkGrayColor];
-    _customConfig.navReturnImg = [UIImage imageNamed:@"返回"];
+    YMCustomConfig *customConfig = [[YMCustomConfig alloc] init];
+    customConfig.navColor = [UIColor whiteColor];
+    customConfig.navText = @"欢迎登录";
+    customConfig.navTextSize = 20;
+    customConfig.navTextColor = [UIColor darkGrayColor];
+    customConfig.navReturnImg = [UIImage imageNamed:@"返回"];
     
-    _customConfig.logoImg = [UIImage imageNamed:@"Logo"];
-    _customConfig.logoWidth = 80;
-    _customConfig.logoHeight = 80;
-    _customConfig.logoHidden = NO;
+    customConfig.logoImg = [UIImage imageNamed:@"Logo"];
+    customConfig.logoWidth = 80;
+    customConfig.logoHeight = 80;
+    customConfig.logoHidden = NO;
     
-    _customConfig.logBtnText = [[NSAttributedString alloc] initWithString:@"一键登录" attributes:@{NSForegroundColorAttributeName: UIColor.whiteColor, NSFontAttributeName: [UIFont systemFontOfSize:20]}];
-    _customConfig.logBtnImgs = @[[UIImage imageNamed:@"LoginBtnBGImage"],[UIImage imageNamed:@"LoginBtnBGImage"],[UIImage imageNamed:@"LoginBtnBGImage"]];
+    customConfig.logBtnText = [[NSAttributedString alloc] initWithString:@"一键登录" attributes:@{NSForegroundColorAttributeName: UIColor.whiteColor, NSFontAttributeName: [UIFont systemFontOfSize:20]}];
+    customConfig.logBtnImgs = @[[UIImage imageNamed:@"LoginBtnBGImage"],[UIImage imageNamed:@"LoginBtnBGImage"],[UIImage imageNamed:@"LoginBtnBGImage"]];
     
-    _customConfig.numberTextAttributes = @{NSForegroundColorAttributeName:UIColor.darkGrayColor,NSFontAttributeName:[UIFont systemFontOfSize:30]};
+    customConfig.numberTextAttributes = @{NSForegroundColorAttributeName:UIColor.darkGrayColor,NSFontAttributeName:[UIFont systemFontOfSize:30]};
     
-    _customConfig.uncheckedImg = [UIImage imageNamed:@"checkOn"];
-    _customConfig.checkedImg = [UIImage imageNamed:@"timg.jpg"];
-    _customConfig.appPrivacyOne = @[@"亿美用户协议", @"https://www.baidu.com"];
-    _customConfig.appPrivacyTwo = @[@"亿美用户协议2", @"https://www.baidu.com"];
-    _customConfig.appPrivacyColor = @[[UIColor blackColor], [UIColor blueColor]];
-    _customConfig.privacyTextAlignment = NSTextAlignmentCenter;
-    _customConfig.privacyTextFontSize = 12;
-    _customConfig.privacyComponents = @[@"登录即表明同意", @"以及", @"和", @"进行本机号码登录", ];
-    _customConfig.privacyState = YES;
-    return _customConfig;
+    customConfig.uncheckedImg = [UIImage imageNamed:@"uncheck"];
+    customConfig.checkedImg = [UIImage imageNamed:@"check"];
+    customConfig.appPrivacyOne = @[@"亿美用户协议", @"https://www.baidu.com"];
+    customConfig.appPrivacyTwo = @[@"亿美用户协议2", @"https://www.baidu.com"];
+    customConfig.appPrivacyColor = @[[UIColor blackColor], [UIColor blueColor]];
+    customConfig.privacyTextAlignment = NSTextAlignmentCenter;
+    customConfig.privacyTextFontSize = 12;
+    customConfig.privacyComponents = @[@"登录即表明同意", @"以及", @"和", @"进行本机号码登录", ];
+    customConfig.privacyState = YES;
+    return customConfig;
 }
 
 
@@ -152,7 +150,7 @@
         //25、隐私条款偏移量
 //        model.privacyOffsetY = [NSNumber numberWithFloat:(100/2)];
         //26、隐私条款check框默认状态
-//        model.privacyState = YES;
+        model.privacyState = YES;
         model.webNavReturnImg = [UIImage imageNamed:@"返回"];
         model.webNavColor = [UIColor  whiteColor];
         model.webNavTitleAttrs = @{NSForegroundColorAttributeName:[UIColor darkGrayColor],NSFontAttributeName:[UIFont systemFontOfSize:18 weight:UIFontWeightMedium]};
@@ -222,9 +220,9 @@
     //    model.numberOffsetY_B = @30;
         //16、隐私条款uncheckedImg选中图片
         #pragma mark 隐私条款
-        model.uncheckedImg = [UIImage imageNamed:@"checkOn"];
+        model.uncheckedImg = [UIImage imageNamed:@"uncheck"];
         //17、隐私条款chexBox选中图片
-        model.checkedImg = [UIImage imageNamed:@"timg.jpg"];
+        model.checkedImg = [UIImage imageNamed:@"check"];
         //18、复选框大小（只能正方形）必须大于12*/
         model.checkboxWH = @30;
         //*19、隐私条款（包括check框）的左右边距*/
