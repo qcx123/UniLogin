@@ -447,11 +447,10 @@
     ZOAUCustomModel *model = [self createCustomModel:isMini].cuccModel;
     if (isMini) {
         model.navBarHidden = YES;
-        model.logoImg = [UIImage imageNamed:@"Logo"];
         CGFloat topCustomHeight = 330;
         model.controllerType = PresentController;
         model.backgroundColor=[UIColor colorWithWhite:0 alpha:0];
-        UIImage *bgImg = [self imageWithColor:[UIColor colorWithRed:255/255.0 green:248/255.0 blue:220/255.0 alpha:1] size:CGSizeMake(self.view.frame.size.width, self.view.frame.size.height - topCustomHeight + 30)];
+        UIImage *bgImg = [self imageWithColor:[UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:1] size:CGSizeMake(self.view.frame.size.width, self.view.frame.size.height - topCustomHeight + 30)];
         model.bgImage = bgImg;
         model.modalPresentationStyle = UIModalPresentationOverFullScreen;
         model.privacyOffsetY = -10;
@@ -459,28 +458,28 @@
         model.stringAfterPrivacy = @"\n";
         model.ifAddPrivacyPageBG = YES;
         model.logoOffsetY = 0;
-        model.logoWidth = 35;
-        model.logoHeight = 35;
-        model.numberOffsetY = 5;
-        model.brandOffsetY = 5;
+        model.logoWidth = 50;
+        model.logoHeight = 50;
+        model.numberOffsetY = 15;
+        model.brandOffsetY = 20;
         model.logBtnOffsetY = 5;
-        model.logBtnHeight = 20;
-        model.logBtnLeading = 100;
-        model.swithAccOffsetX = 30;
-        model.navReturnImg = [UIImage imageNamed:@"back_1"];
-        dispatch_async(dispatch_get_main_queue(), ^{
-            UIBarButtonItem * rightItem = [[UIBarButtonItem alloc]initWithTitle:@"close" style:0 target:self action:@selector(stopLogining)];
-            model.navControl = rightItem;
-        });
+        model.logBtnHeight = 30;
+        model.logBtnLeading = 50;
+        model.swithAccHidden = YES;
+//        model.navReturnImg = [UIImage imageNamed:@"back_1"];
+//        dispatch_async(dispatch_get_main_queue(), ^{
+//            UIBarButtonItem * rightItem = [[UIBarButtonItem alloc]initWithTitle:@"close" style:0 target:self action:@selector(stopLogining)];
+//            model.navControl = rightItem;
+//        });
         [[ZUOAuthManager getInstance]customUIWithParams:model topCustomViews:^(UIView *customView) {
-
             UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
-            button.frame = CGRectMake(customView.frame.size.width-55, customView.frame.size.height-25, 50, 20);
-            button.backgroundColor = UIColor.redColor;
-            [button setTitle:@"关闭" forState:UIControlStateNormal];
+            button.frame = CGRectMake(20, customView.frame.size.height-25, 50, 20);
+                    [button setImage:[UIImage imageNamed:@"返回"] forState:(UIControlStateNormal)];
             [button addTarget:self action:@selector(stopLogining) forControlEvents:UIControlEventTouchUpInside];
             [customView addSubview:button];
-        } bottomCustomViews:nil];
+        } bottomCustomViews:^(UIView *customView) {
+            [self setThirdViewWithCustom:customView isSmall:isMini frame:CGRectMake(50, 0, [UIScreen mainScreen].bounds.size.width - 100, 0)];
+        }];
         
         // 第二种
         /**
