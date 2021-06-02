@@ -15,25 +15,29 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  YMInitResultBlock: 初始化结果回调
  isSuccess: 是否成功
+ code: 返回码
  msg: 提示信息
  */
-typedef void(^YMInitResultBlock)(BOOL isSuccess, NSString *msg);
+typedef void(^YMInitResultBlock)(BOOL isSuccess, NSInteger code, NSString *msg);
 
 /**
  YMPrepareLoginResultBlock: 预登录结果回调
  isSuccess: 是否成功
+ code: 返回码
  msg: 提示信息
  result: 更多信息（运营商返回的结果）
  */
-typedef void(^YMPrepareLoginResultBlock)(BOOL isSuccess, NSString *msg, NSDictionary * _Nullable result);
+typedef void(^YMPrepareLoginResultBlock)(BOOL isSuccess, NSInteger code, NSString *msg, NSDictionary * _Nullable result);
 
 /**
  YMLoginResultBlock: 打开登录页面结果回调
  mobile: 手机号码
+ code: 返回码
  msg: 提示信息
  result: 更多信息（运营商返回的结果）移动联通的是字典类型，电信的是NSError
  */
-typedef void(^YMLoginResultBlock)(NSString * _Nullable mobile, NSString * _Nullable msg, id _Nullable result);
+
+typedef void(^YMLoginResultBlock)(NSString * _Nullable mobile, NSInteger code, NSString * _Nullable msg, id _Nullable result);
 
 @protocol UniLoginDelegate <NSObject>
 
@@ -60,7 +64,7 @@ typedef void(^YMLoginResultBlock)(NSString * _Nullable mobile, NSString * _Nulla
 /// @param appId 分配的appId
 /// @param secretKey 分配的密钥
 /// @param complete 完成回调
-- (void)loginWithViewControler:(UIViewController *)currectVC customConfig:(YMCustomConfig *)customConfig appId:(NSString *)appId secretKey:(NSString *)secretKey complete:(void(^)(NSString * _Nullable mobile, NSString* _Nullable msg))complete;
+- (void)loginWithViewControler:(UIViewController *)currectVC customConfig:(YMCustomConfig *)customConfig appId:(NSString *)appId secretKey:(NSString *)secretKey complete:(void(^)(NSString * _Nullable mobile, NSString* _Nullable msg))complete DEPRECATED_MSG_ATTRIBUTE("use initWithAppId: secretKey: complete: & prepareLoginWithTimeout: complete: & openAtuhVCWithConfig: timeout: controller: complete: instead");;
 
 
 /// 关闭授权页面

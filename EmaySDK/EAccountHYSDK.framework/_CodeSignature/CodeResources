@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/EAccountHYSDK.h</key>
 		<data>
-		eaDWfMp/m9gVKx0VxEtTm2/aibc=
+		Gt4VFuHWtK4xeveGCj/it6xUxXY=
 		</data>
 		<key>Headers/EAccountHYUiEventHandler.h</key>
 		<data>
@@ -26,15 +26,15 @@
 		</data>
 		<key>Headers/EAccountOpenPageConfig.h</key>
 		<data>
-		RfU0TG6bbtyKFo4NEPneVquUeTQ=
+		+Pnr6JMdIkJDaPqlRwvG4DcKoCg=
 		</data>
 		<key>Headers/EAccountOpenPageSDK.h</key>
 		<data>
-		CkYSv/Eif6b7snqPdWQNsb7CsUA=
+		8yS1j7EUNw36g1D6L4/jekwsaLw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+Kqo1g3mumHgmq0+9J9t5CdA5aY=
+		uRq8k03nqnr/n8mgVyFgRHeKv60=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -80,11 +80,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eaDWfMp/m9gVKx0VxEtTm2/aibc=
+			Gt4VFuHWtK4xeveGCj/it6xUxXY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qb6CbMW6/u5pxJEKRKqC5NBKfUmmiFMCTp1mm/xLk9s=
+			p75f9Yf+lTDWlkmMyPJJ5sB9iWKDMwPP3U8jKaASS4Q=
 			</data>
 		</dict>
 		<key>Headers/EAccountHYUiEventHandler.h</key>
@@ -102,22 +102,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RfU0TG6bbtyKFo4NEPneVquUeTQ=
+			+Pnr6JMdIkJDaPqlRwvG4DcKoCg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z9miQG5H2S13S3aEQJPCQGpWNkwSlVUUzQJGdf31+Rk=
+			4KDr1BKDmnoz8Xi85IXNvUcOQtq/KKE/qPXydxapDDA=
 			</data>
 		</dict>
 		<key>Headers/EAccountOpenPageSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CkYSv/Eif6b7snqPdWQNsb7CsUA=
+			8yS1j7EUNw36g1D6L4/jekwsaLw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ocZ4UAyTHJ4nQ0847ARkr1amaVjL5wQlnjtYkLiHT3U=
+			l0UmD4QO1y2FNKcOAY79sR0JajbHRHqD3hhEniDO484=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

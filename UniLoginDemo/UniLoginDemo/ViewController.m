@@ -780,9 +780,7 @@
                     //TODO:自定义操作
 
                     //让sdk继续执行往下的流程（必须调用）
-                    if (eUiHandler.continueExecution) {
-                        eUiHandler.continueExecution();
-                    }
+                    
                 }else if(view.tag == 21301) {
                     //TODO:自定义操作
                     NSLog(@"电信自定义按钮tag = %ld",view.tag);

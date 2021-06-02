@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment version="2304" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -151,7 +151,7 @@
                         <fragment content="登录即同意《天翼账号服务与隐私协议》与《自定义协议》并授权[应用名]获取本机号码">
                             <attributes>
                                 <color key="NSColor" red="0.69796198610000004" green="0.69808381799999997" blue="0.69795435669999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <font key="NSFont" metaFont="cellTitle"/>
+                                <font key="NSFont" size="12" name=".PingFangSC-Regular"/>
                                 <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="8" tighteningFactorForTruncation="0.0"/>
                             </attributes>
                         </fragment>
@@ -175,14 +175,14 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
-                        <button opaque="NO" tag="21102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRW-Uy-mca">
+                        <button opaque="NO" tag="21102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRW-Uy-mca">
                             <rect key="frame" x="0.0" y="89" width="150" height="49"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                             <state key="normal" title="返回"/>
                         </button>
-                        <button opaque="NO" tag="21103" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gh9-oV-AjO">
+                        <button opaque="NO" tag="21103" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gh9-oV-AjO">
                             <rect key="frame" x="151" y="89" width="149" height="49"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -198,14 +198,14 @@
                                 <fragment content="登录即同意">
                                     <attributes>
                                         <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <font key="NSFont" metaFont="system" size="14"/>
+                                        <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="8" tighteningFactorForTruncation="0.0"/>
                                     </attributes>
                                 </fragment>
                                 <fragment content="《天翼账号服务与隐私协议》">
                                     <attributes>
                                         <color key="NSColor" red="0.0016926261596381664" green="0.56613051891326904" blue="0.99799877405166626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <font key="NSFont" metaFont="system" size="14"/>
+                                        <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="8" tighteningFactorForTruncation="0.0"/>
                                         <shadow key="NSShadow" blurRadius="10">
                                             <size key="offset" width="1.1430036792041963e-16" height="1.8666666666666667"/>
@@ -216,15 +216,15 @@
                                 <fragment content="与">
                                     <attributes>
                                         <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                        <font key="NSFont" metaFont="system" size="14"/>
+                                        <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="8" tighteningFactorForTruncation="0.0"/>
                                     </attributes>
                                 </fragment>
                                 <fragment content="《">
                                     <attributes>
                                         <color key="NSColor" red="0.0016926261596381664" green="0.56613051891326904" blue="0.99799877405166626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <font key="NSFont" metaFont="system" size="14"/>
-                                        <font key="NSOriginalFont" metaFont="system" size="15"/>
+                                        <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                                        <font key="NSOriginalFont" size="15" name=".PingFangSC-Regular"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="8" tighteningFactorForTruncation="0.0"/>
                                         <shadow key="NSShadow" blurRadius="10">
                                             <size key="offset" width="1.2246467991473532e-16" height="2"/>
@@ -235,7 +235,7 @@
                                 <fragment content="自定义">
                                     <attributes>
                                         <color key="NSColor" red="0.0016926261596381664" green="0.56613051891326904" blue="0.99799877405166626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <font key="NSFont" metaFont="system" size="14"/>
+                                        <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="8" tighteningFactorForTruncation="0.0"/>
                                         <shadow key="NSShadow" blurRadius="10">
                                             <size key="offset" width="1.2246467991473532e-16" height="2"/>
@@ -246,8 +246,8 @@
                                 <fragment content="协议》">
                                     <attributes>
                                         <color key="NSColor" red="0.0016926261596381664" green="0.56613051891326904" blue="0.99799877405166626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <font key="NSFont" metaFont="system" size="14"/>
-                                        <font key="NSOriginalFont" metaFont="system" size="15"/>
+                                        <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                                        <font key="NSOriginalFont" size="15" name=".PingFangSC-Regular"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="8" tighteningFactorForTruncation="0.0"/>
                                         <shadow key="NSShadow" blurRadius="10">
                                             <size key="offset" width="1.2246467991473532e-16" height="2"/>
@@ -274,7 +274,6 @@
                     </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
-            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="3HK-j5-xCC" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="10W-Ki-eYv"/>
@@ -349,6 +348,7 @@
                     <variation key="heightClass=regular-widthClass=compact" constant="298"/>
                 </constraint>
             </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <variation key="heightClass=compact-widthClass=compact">
                 <mask key="constraints">
                     <include reference="AIC-Cn-xzr"/>

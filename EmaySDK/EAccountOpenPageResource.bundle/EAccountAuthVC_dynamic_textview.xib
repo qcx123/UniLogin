@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -144,7 +143,7 @@
                 </imageView>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="41008" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mBe-Rc-fai">
                     <rect key="frame" x="36" y="511" width="248" height="55"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="55" id="jBb-ei-DcM"/>
                     </constraints>
@@ -164,22 +163,6 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
-                <button opaque="NO" tag="21301" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q13-c5-KJJ">
-                    <rect key="frame" x="145" y="400" width="30" height="30"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="30" id="8ez-CW-Xqx"/>
-                        <constraint firstAttribute="height" constant="30" id="qQ0-YY-7G9"/>
-                    </constraints>
-                    <state key="normal" title="QQ" image="qq"/>
-                </button>
-                <button opaque="NO" tag="21302" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxY-fU-WHI" userLabel="微信">
-                    <rect key="frame" x="65" y="400" width="30" height="30"/>
-                    <state key="normal" title="QQ" image="微信"/>
-                </button>
-                <button opaque="NO" tag="21303" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soV-rh-jvE" userLabel="新浪">
-                    <rect key="frame" x="225" y="400" width="30" height="30"/>
-                    <state key="normal" title="QQ" image="微博"/>
-                </button>
                 <view hidden="YES" clipsSubviews="YES" tag="21100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sb0-bB-U1e">
                     <rect key="frame" x="10" y="215" width="300" height="138"/>
                     <subviews>
@@ -193,14 +176,14 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
-                        <button opaque="NO" tag="21102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRW-Uy-mca">
+                        <button opaque="NO" tag="21102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRW-Uy-mca">
                             <rect key="frame" x="0.0" y="89" width="150" height="49"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                             <state key="normal" title="返回"/>
                         </button>
-                        <button opaque="NO" tag="21103" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gh9-oV-AjO">
+                        <button opaque="NO" tag="21103" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gh9-oV-AjO">
                             <rect key="frame" x="151" y="89" width="149" height="49"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -209,7 +192,7 @@
                         </button>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="41009" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ib0-FZ-lvG">
                             <rect key="frame" x="20" y="14" width="260" height="70"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="70" id="Kkx-Oa-HH4"/>
                             </constraints>
@@ -270,7 +253,6 @@
                     </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
-            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="3HK-j5-xCC" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="10W-Ki-eYv"/>
@@ -285,23 +267,18 @@
                     <variation key="heightClass=compact-widthClass=regular" constant="166"/>
                     <variation key="heightClass=regular-widthClass=compact" constant="20"/>
                 </constraint>
-                <constraint firstItem="soV-rh-jvE" firstAttribute="leading" secondItem="q13-c5-KJJ" secondAttribute="trailing" constant="50" id="AnI-2b-V9V"/>
                 <constraint firstItem="OtD-qz-yxC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="BwT-JM-fqA"/>
-                <constraint firstItem="q13-c5-KJJ" firstAttribute="top" secondItem="FFB-ud-pSB" secondAttribute="bottom" constant="22" id="D4W-Of-6in"/>
                 <constraint firstItem="OtD-qz-yxC" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="ELz-nc-fsD"/>
                 <constraint firstItem="ycQ-lW-CXs" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="105" id="FJt-FJ-stM">
                     <variation key="heightClass=compact-widthClass=compact" constant="50"/>
                     <variation key="heightClass=compact-widthClass=regular" constant="50"/>
                     <variation key="heightClass=regular-widthClass=compact" constant="105"/>
                 </constraint>
-                <constraint firstItem="soV-rh-jvE" firstAttribute="height" secondItem="q13-c5-KJJ" secondAttribute="height" id="FMp-JS-Gla"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="mBe-Rc-fai" secondAttribute="trailing" constant="36" id="FZO-02-UuJ"/>
                 <constraint firstItem="OtD-qz-yxC" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="JMx-Jc-g2O"/>
                 <constraint firstItem="Sb0-bB-U1e" firstAttribute="centerX" secondItem="OtD-qz-yxC" secondAttribute="centerX" id="NSJ-fP-JtL"/>
                 <constraint firstItem="OtD-qz-yxC" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="Nrl-qK-hoQ"/>
-                <constraint firstItem="q13-c5-KJJ" firstAttribute="leading" secondItem="hxY-fU-WHI" secondAttribute="trailing" constant="50" id="Qki-yr-IN3"/>
                 <constraint firstItem="oG2-UO-y8L" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="RCR-6G-6Go"/>
-                <constraint firstItem="hxY-fU-WHI" firstAttribute="top" secondItem="q13-c5-KJJ" secondAttribute="top" id="SRT-nb-zIb"/>
                 <constraint firstItem="3HK-j5-xCC" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="195" id="T9o-UY-E0d">
                     <variation key="heightClass=compact-widthClass=compact" constant="140"/>
                     <variation key="heightClass=compact-widthClass=regular" constant="140"/>
@@ -321,7 +298,6 @@
                 <constraint firstItem="mBe-Rc-fai" firstAttribute="leading" secondItem="azk-TB-cOb" secondAttribute="trailing" id="bnP-n1-OJv"/>
                 <constraint firstItem="awm-tf-G1W" firstAttribute="centerY" secondItem="oG2-UO-y8L" secondAttribute="centerY" id="cQK-2A-QAT"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="azk-TB-cOb" secondAttribute="bottom" constant="23" id="eEg-cV-bjI"/>
-                <constraint firstItem="soV-rh-jvE" firstAttribute="top" secondItem="q13-c5-KJJ" secondAttribute="top" id="eoV-RA-Rvc"/>
                 <constraint firstItem="oG2-UO-y8L" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="fye-LU-YT0">
                     <variation key="heightClass=compact-widthClass=compact" constant="166"/>
                     <variation key="heightClass=compact-widthClass=regular" constant="166"/>
@@ -335,7 +311,6 @@
                     <variation key="heightClass=compact-widthClass=regular" constant="240"/>
                     <variation key="heightClass=regular-widthClass=compact" constant="348"/>
                 </constraint>
-                <constraint firstItem="soV-rh-jvE" firstAttribute="width" secondItem="q13-c5-KJJ" secondAttribute="width" id="iQM-zW-WLX"/>
                 <constraint firstItem="BIo-xT-fMS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jFi-dA-jgn"/>
                 <constraint firstItem="Jxm-wk-IgZ" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="12" id="lsU-Sy-tZn">
                     <variation key="heightClass=compact-widthClass=compact" constant="172"/>
@@ -343,9 +318,7 @@
                     <variation key="heightClass=regular-widthClass=compact" constant="273"/>
                 </constraint>
                 <constraint firstItem="yP4-kt-htf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" priority="999" constant="20" id="mex-95-iau"/>
-                <constraint firstItem="hxY-fU-WHI" firstAttribute="height" secondItem="q13-c5-KJJ" secondAttribute="height" id="ouX-3F-Uer"/>
                 <constraint firstItem="ycQ-lW-CXs" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qH3-ZQ-822"/>
-                <constraint firstItem="hxY-fU-WHI" firstAttribute="width" secondItem="q13-c5-KJJ" secondAttribute="width" id="szt-nr-d4N"/>
                 <constraint firstItem="mBe-Rc-fai" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="36" id="t3B-96-u65"/>
                 <constraint firstItem="FFB-ud-pSB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="tyL-rn-r3I"/>
                 <constraint firstItem="awm-tf-G1W" firstAttribute="centerX" secondItem="oG2-UO-y8L" secondAttribute="centerX" id="xGa-hC-e13"/>
@@ -354,8 +327,8 @@
                     <variation key="heightClass=compact-widthClass=regular" constant="190"/>
                     <variation key="heightClass=regular-widthClass=compact" constant="298"/>
                 </constraint>
-                <constraint firstItem="q13-c5-KJJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xvo-jG-fPb"/>
             </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <variation key="heightClass=compact-widthClass=compact">
                 <mask key="constraints">
                     <include reference="AIC-Cn-xzr"/>
@@ -412,11 +385,5 @@
         <image name="loginBtn_Pre.png" width="335" height="50"/>
         <image name="logo.png" width="240" height="240"/>
         <image name="logo_mini.png" width="54" height="36"/>
-        <image name="qq" width="128" height="128"/>
-        <image name="微信" width="128" height="128"/>
-        <image name="微博" width="128" height="128"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

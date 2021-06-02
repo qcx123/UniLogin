@@ -420,9 +420,14 @@ NS_ASSUME_NONNULL_BEGIN
  新增更灵活的协议动态配置；
  */
 //mini登录框tag 41000
-@property (nonatomic, assign)   NSUInteger  *miniBoxViewTag;
+@property (nonatomic, assign)   NSUInteger  miniBoxViewTag;
 //mini登录框 Y方向位置，上中下，水平方向上居中
 @property (nonatomic, assign)   NSInteger   miniBoxYPosition;
+/**
+    mini登录框 Y方向的位置是否基于SafeArea（默认基于屏幕），即该项默认值为NO
+    比如基于屏幕的center和基于safeArea的center是有差异的，前者是整个手机的正中央；如果是安全区域：在X系列上头部44、底部34，视觉上会向下偏移5个像素，）
+ */
+@property (nonatomic, assign)   BOOL isMiniBoxYBaseOnSafeArea;
 //mini登录框 宽度
 @property (nonatomic, assign)   CGFloat     miniBoxWidth;
 //mini登录框 高度
